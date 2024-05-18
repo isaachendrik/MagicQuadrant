@@ -1,0 +1,106 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 20px;
+    text-align: center; /* Center everything */
+}
+
+.header {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.subheader {
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.chart {
+    height: 900px;
+    width: 900px;
+}
+
+.company-list {
+    margin-top: 20px; /* Move company list below the chart */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 800px;
+    overflow-y: auto;
+    width: 100%;  /* Full width for company list */
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  /* Change direction to column */
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input, .dropdown, .checklist, .button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;  /* Full width for inputs */
+}
+
+.dropdown {
+    width: 100%;  /* Full width for dropdown */
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;  /* Full width for button */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.download-button {
+    margin-top: 20px;
+}
+
+.title-input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}

@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: MagicQuadrant
+    env: python
+    plan: free
+    buildCommand: "magic"
+    startCommand: gunicorn main:server
